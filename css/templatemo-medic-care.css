@@ -606,8 +606,12 @@ strong {
   /* background-color:chartreuse; */
   
 }
+.im{
+  visibility: hidden;
+  
 }
 }
+
 
 @media (max-width: 575px) {
   .timeline::before {
@@ -637,6 +641,7 @@ overflow: hidden;
     width: 20px;
     height: 10px;
   }
+  
 }
 
 /*---------------------------------------
