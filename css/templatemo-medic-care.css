@@ -589,7 +589,24 @@ strong {
   .timeline-icon {
     line-height: 75px;
   }
-.
+  .services{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+  flex-direction:column;
+  width:290px ;
+  height:140 ;
+ 
+  /* background-color: aquamarine; */
+  
+}
+.halness{
+  width: 200px;
+  /* height: 10px; */
+  /* background-color:chartreuse; */
+  
+}
+}
 }
 
 @media (max-width: 575px) {
