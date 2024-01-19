@@ -13,7 +13,7 @@ https://templatemo.com/tm-566-medic-care
   --white-color:                  #FFFFFF;
   --primary-color:                #247cff;
   --section-bg-color:             #F9F9F9;
-  --dark-color:                   #000000;
+  --dark-color:                   #60c4e9;
   --title-color:                  #565758;
   --p-color:                      #717275;
   --border-color:                 #eaeaea;
@@ -641,7 +641,17 @@ overflow: hidden;
     width: 20px;
     height: 10px;
   }
+  .blog-cap{
+
+  }
   
+  .container_1{
+   display: flex;
+   flex-direction:column;
+  }
+  .h3{
+    margin-right: 20px;
+  }
 }
 
 /*---------------------------------------
