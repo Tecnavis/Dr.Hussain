@@ -11,9 +11,9 @@ https://templatemo.com/tm-566-medic-care
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #247cff;
+  --primary-color:                #0758d0;
   --section-bg-color:             #F9F9F9;
-  --dark-color:                   #60c4e9;
+  --dark-color:                   rgb(55, 159, 197);
   --title-color:                  #565758;
   --p-color:                      #717275;
   --border-color:                 #eaeaea;
@@ -528,7 +528,7 @@ strong {
   line-height: 80px;
 }
 .text-center:hover{
-  color: #247cff;
+  color: #0758d0;
 }
 
 
@@ -957,4 +957,69 @@ overflow: hidden;
   .timeline::before {
     left: 42px;
   }
+
+}
+
+
+.cookieCard {
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(to right,#4088f4,#83b2f8);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.cookieCard  ul{
+  margin-top: -50px;
+  color: white;
+  list-style:circle;
+}
+.cookieCard::before {
+  width: 150px;
+  height: 150px;
+  content: "";
+  background: linear-gradient(to right,#4088f4,#83b2f8);
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  right: -25%;
+  top: -25%;
+}
+
+.cookieHeading {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(241, 241, 241);
+  z-index: 2;
+}
+
+.cookieDescription {
+  font-size: 0.9em;
+  color: rgb(241, 241, 241);
+  z-index: 2;
+}
+
+.cookieDescription a {
+  color: rgb(241, 241, 241);
+}
+
+.acceptButton {
+  padding: 11px 20px;
+  background-color: #0758d0;
+  transition-duration: .2s;
+  border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.acceptButton:hover {
+  background-color: #0758d0;
+  transition-duration: .2s;
 }
