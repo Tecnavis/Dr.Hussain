@@ -530,7 +530,24 @@ strong {
 .text-center:hover{
   color: #0758d0;
 }
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr); /* 2 columns */
+ gap: 10px; 
+ 
+  
+}
 
+/* Style each cell in the grid */
+.box-cell {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+ 
+}
+.box-cell:hover{
+  color:#83b2f8;
+}
 
 @media (max-width: 767px) {
   .timeline-nodes:nth-child(odd) h3,
@@ -779,7 +796,12 @@ overflow: hidden;
 }
 
 .copyright-text {
-  font-size: var(--menu-font-size);
+  font-size: var(--h6-font-size);
+
+}
+.copyright-text:hover{
+  color: #83b2f8;
+
 }
 
 /*---------------------------------------
