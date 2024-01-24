@@ -540,6 +540,7 @@ strong {
 
 /* Style each cell in the grid */
 .box-cell {
+
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
@@ -796,13 +797,11 @@ overflow: hidden;
 }
 
 .copyright-text {
-  font-size: var(--h6-font-size);
+  font-size: 18px;
+  font-weight:400;
 
 }
-.copyright-text:hover{
-  color: #83b2f8;
 
-}
 
 /*---------------------------------------
   SOCIAL ICON               
@@ -810,9 +809,14 @@ overflow: hidden;
 .social-icon {
   margin: 0;
   padding: 0;
+
+}
+.social-icon  .custom-icon-size {
+  font-size: 36px; /* Adjust the size as needed */
 }
 
 .social-icon li {
+
   list-style: none;
   display: inline-block;
   vertical-align: top;
